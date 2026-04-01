@@ -98,4 +98,27 @@ face-recognition-eigenfaces/
 │   └── report.pdf
 ├── requirements.txt
 ```
+---
+
+
+## Results
+| Method | Best Setting | Accuracy |
+|---|---|---:|
+| PCA + kNN | `m = 50, k = 5` | 0.900 |
+| LDA + kNN | `mlda = 14, k ∈ {1, 3, 5}` | 0.967 |
+| Kernel PCA + kNN (RBF) | `m = 20/30, k = 5` | 0.867 |
+| Kernel LDA + kNN (RBF) | `kpca dim = 50, k = 5` | 1.000 |
+
+---
+
+## Key Observations
+1. PCA captures dominant variance but does not explicitly separate identities.
+2. LDA improves recognition because it uses label information and maximizes between-class separation.
+3. Kernel PCA introduces nonlinear features, but as an unsupervised method it does not necessarily improve identity discrimination.
+4. Kernel LDA achieves the best performance by combining nonlinear mapping with supervised discrimination.
+
+---
+
+
+## Visualizations
 
