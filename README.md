@@ -82,21 +82,18 @@ After projection, classification is performed using **k-nearest neighbors (kNN)*
 
 ```text
 face-recognition-eigenfaces/
-├── assets/
-│   ├── eigenfaces.png
-│   ├── pca_reconstruction.png
-│   ├── fisherfaces.png
-│   ├── lda_reconstruction.png
-│   ├── pca_feature_space.png
-│   ├── lda_feature_space.png
-│   └── kernel_lda_feature_space.png
+├── eigenfaces.png
+├── pca_reconstruction.png
+├── fisherfaces.png
+├── lda_reconstruction.png
+├── pca_feature_space.png
+├── lda_feature_space.png
+├── kernel_lda_feature_space.png
 ├── notebooks/
 │   └── face_recognition.ipynb
-├── src/
-│   └── face_recognition.py
 ├── report/
 │   └── report.pdf
-├── requirements.txt
+└── requirements.txt
 ```
 ---
 
@@ -146,6 +143,15 @@ face-recognition-eigenfaces/
   ![Kernel LDA Feature Space](klda_scatter.png)
 
 
+
+---
+
+## Tech Stack
+1. Python
+2. NumPy
+3. OpenCV
+4. Matplotlib
+5. Jupyter Notebook
 
 ---
 
