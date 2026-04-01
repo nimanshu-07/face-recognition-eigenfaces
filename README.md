@@ -128,12 +128,22 @@ face-recognition-eigenfaces/
 
 2. PCA Reconstruction
    PCA reconstruction preserves global facial structure while smoothing fine details.
-   ![Eigenfaces](pca_reconstruction_m25.png)
+   ![PCA Reconstruction](pca_reconstruction_m25.png)
 
 3. Fisherfaces
    LDA emphasizes discriminative facial features rather than overall variance.
-   ![Eigenfaces](lda_reconstruction.png)
+   ![Fisherfaces](fisherfaces_14.png)
 
+4. LDA Reconstruction
+   Reconstruction through PCA → LDA → PCA is less smooth, since LDA is designed for discrimination rather than image reconstruction.
+    ![LDA Reconstruction](lda_reconstruction.png)
+
+5. Feature Space Visualizations
+   Projected 2D feature spaces show how class separability improves from PCA to LDA to Kernel LDA.
+   
+  ![PCA Feature Space](pca_scatter.png)
+  ![LDA Feature Space](lda_scatter.png)
+  ![Kernel LDA Feature Space](klda_scatter.png)
 
 
 
