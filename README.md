@@ -122,3 +122,20 @@ face-recognition-eigenfaces/
 
 ## Visualizations
 
+1. Eigenfaces
+  The first 25 principal components show the dominant directions of facial variation.
+  ![Eigenfaces](first_25_eigenfaces.png)
+
+2. PCA Reconstruction
+   PCA reconstruction preserves global facial structure while smoothing fine details.
+   ![Eigenfaces](pca_reconstruction_m25.png)
+
+3. Fisherfaces
+   LDA emphasizes discriminative facial features rather than overall variance.
+   ![Eigenfaces](lda_reconstruction.png)
+
+
+
+
+---
+
